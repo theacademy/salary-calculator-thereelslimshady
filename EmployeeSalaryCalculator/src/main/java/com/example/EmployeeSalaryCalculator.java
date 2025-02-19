@@ -55,11 +55,11 @@ public class EmployeeSalaryCalculator
 			4. Follow standard Java naming conventions for all code that you write.
 		*/
 
-
 				if(HW <= standardWorkingHours)
 				{
 					//YOUR CODE STARTS HERE
 					 
+					grossSalary= HW*HR;
 
 					//YOUR CODE ENDS HERE
 				}
@@ -67,7 +67,7 @@ public class EmployeeSalaryCalculator
 				{
 					//YOUR CODE STARTS HERE
  
-
+					grossSalary= 40*HR+(HW-40)*2*HR;
 					//YOUR CODE ENDS HERE
 				}
 				return grossSalary;
