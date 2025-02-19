@@ -54,6 +54,7 @@ public class EmployeeSalaryCalculator
 			3. Do not change existing class names, interface names, method signatures, or attributes.
 			4. Follow standard Java naming conventions for all code that you write.
 		*/
+
 				if(HW <= standardWorkingHours)
 				{
 					//YOUR CODE STARTS HERE
